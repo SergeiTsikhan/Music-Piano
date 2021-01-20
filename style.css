@@ -1,0 +1,74 @@
+html{
+  font-size: 62.5%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: snow;
+  background-image: linear-gradient(90deg, #BE93C5, #7BC6CC);
+}
+
+.container{
+  position: relative;
+  width: fit-content;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+}
+
+.white-keys kbd{
+  position: relative;
+  display: inline-block;
+  width: 10rem;
+  height: 20rem;
+  background: white;
+  border: solid 0.4rem darkgrey;
+  text-align: center;
+  padding-top: 10rem;
+  font-size: 1.6rem;
+}
+
+.black-keys{
+  position: absolute;
+  top: 0;
+}
+
+.black-keys kbd{
+  display: inline-block;
+  width: 5rem;
+  height: 12rem;
+  background: black;
+  color: white;
+  text-align: center;
+  padding-top: 5rem;
+  font-size: 1.2rem;
+}
+.black-keys kbd:first-child{
+  margin-left: 9.6rem;
+  transform: translateX(-50%);
+}
+
+.black-keys kbd:nth-child(2){
+  margin-left: 5.5rem;
+  transform: translateX(-50%);
+}
+
+.black-keys kbd:nth-child(3){
+  margin-left: 15.6rem;
+  transform: translateX(-50%);
+}
+
+.black-keys kbd:nth-child(4){
+  margin-left: 5rem;
+  transform: translateX(-50%);
+}
+
+.black-keys kbd:nth-child(5){
+  margin-left: 5rem;
+  transform: translateX(-50%);
+}
